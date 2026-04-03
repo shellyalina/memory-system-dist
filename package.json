@@ -1,0 +1,39 @@
+{
+  "name": "memory-system",
+  "version": "2.0.0",
+  "description": "基于 Claude Code 记忆系统设计的 Node.js 实现 - 支持时效管理、语义检索、自动压缩和优先级管理",
+  "main": "integration.js",
+  "scripts": {
+    "test": "node priorityPlugin.js && echo 'All tests passed!'",
+    "start": "node integration.js"
+  },
+  "keywords": [
+    "memory",
+    "memory-system",
+    "claude-code",
+    "semantic-search",
+    "vector-search",
+    "priority",
+    "ai-memory",
+    "agent-memory"
+  ],
+  "author": "Memory System Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/memory-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/memory-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/memory-system#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "*.js",
+    "LICENSE",
+    "README.md",
+    "PRIORITY_README.md"
+  ]
+}
